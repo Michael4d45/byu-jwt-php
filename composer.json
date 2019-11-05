@@ -1,5 +1,5 @@
 {
-    "name": "byu-oit/jwt",
+    "name": "byu-oit-michael/jwt",
     "description": "JWT decoder/validator for BYU API",
     "license": "MIT",
     "require": {
