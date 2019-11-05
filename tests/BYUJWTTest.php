@@ -34,13 +34,13 @@ final class BYUJWTTest extends TestCase
 
     protected static $privateKey;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass(): void
     {
         $keyData = file_get_contents(dirname(__FILE__) . '/testing.key');
         static::$privateKey = openssl_pkey_get_private($keyData);
     }
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->BYUJWT = new BYUJWT();
 

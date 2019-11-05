@@ -3,13 +3,13 @@
     "description": "JWT decoder/validator for BYU API",
     "license": "MIT",
     "require": {
-        "firebase/php-jwt": "~4.0",
-        "guzzlehttp/guzzle": "~5.3",
+        "firebase/php-jwt": "~5.0",
+        "guzzlehttp/guzzle": "~6.4",
         "phpseclib/phpseclib": "~2.0.4"
     },
     "require-dev": {
-        "php-vcr/phpunit-testlistener-vcr": "~2.0",
-        "phpunit/phpunit": "~5.0"
+        "php-vcr/phpunit-testlistener-vcr": "~3.2",
+        "phpunit/phpunit": "~8.4"
     },
     "autoload": {
         "psr-4": {
